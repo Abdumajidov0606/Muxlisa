@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul{
+    list-style: none;
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+body{
+    background-color: gray;
+}
+form{
+    width: 370px;
+    padding: 13px;
+    margin: 100px auto;
+    border: 10px double blue;
+    background-color: cornsilk;
+}
+
+form h1{
+    text-align: center;
+    font-size: 33px;
+    font-weight: 700;
+    color: rgb(27, 99, 27);
+    margin-bottom: 20px;
+}
+
+.kirish{
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+.kirish li{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+.kirish label{
+    font-size: 20px;
+    font-weight: 700;
+    cursor: pointer;
+}
+.kirish input{
+    width: 200px;
+    padding: 3px 3px;
+    outline: none;
+    transition: all .3s ease;
+}
+.kirish input:hover{
+    box-shadow: 0px 0px 7px 3px gray;
+}
+
+.btns{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+.btns button{
+    padding: 6px 20px;
+    background-color: beige;
+    border: 1px solid gray;
+    font-size: 14px;
+    font-weight: 600;
+    transition: all .3s ease;
+    cursor: pointer;
+}
+
+.btns button:hover{
+    transform: scale(1.1);
+    color: red;
+}
+
+.btns button a{
+    color: black;
+    text-decoration: none;
+    transition: all .3s ease;
+}
+
+.btns button a:hover{
+    color: red;
+}
+
+
+
+
+
+.buys .container{
+}
